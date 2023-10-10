@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/5337906-silhouette-hike-people-dark-black-blue-hiking-walk-together-friends-sunrise-blue-hour-vignette-grass-night-germany-mittagberg-blaichach-boy-person-free-stock-photos.jpg);
+}
+header{
+    width: 80%;
+    height: 90vh;
+   color: black;
+    margin: auto;
+}
+header nav{
+    width: 95%;
+    height: 7%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav ul{
+    
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    color: #fff;
+    padding: 5px;
+}
+header nav ul li:nth-last-child(1){
+    background-color: #000;
+    border-radius: 20px;
+    padding: 5px 20px;
+
+
+}
+header nav ul li:nth-last-child(1) a{
+    color: #fff;
+
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-size: 500;
+    transition: .3s linear;
+}
+header nav ul li a:hover{
+    color: gray;
+}
+header nav .bi-three-dots{
+    display: none;
+
+}
+header .content{
+    position: relative;
+    width: 100%;
+    height: 80%;
+   
+}
+header .content::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    border: 1px solid rebeccapurple;
+    background: url('images/wp6612913-varanasi-wallpapers.jpg')no-repeat center center/cover;
+    border-radius: 15px;
+    z-index: -1;
+}
+.cont{
+    color: #fff;
+
+}
+article{
+    height: 175px;
+                  width: 300px;
+                  border-radius: 10px;
+                  background-color: black;
+                  padding: 20px;
+                  padding-top: 10px ;
+                  opacity: 0.6;
+                  box-shadow: 0px 20px 25px -10px rgb(14, 13, 13);
+                  margin: 20px;
+                  text-align: center;
+                  
+                  flex-wrap: wrap;
+}
+.text{
+    font-size: smaller;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+.container-content{
+    width: 70vw;
+    text-align: center;
+    border: 2px solid springgreen;
+    border-radius: 20px;
+}
+.car{
+    width: 180px ;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 25px;
+    background-position: center; 
+    transition: transform 0.7s;
+background-size: cover; 
+}
+
+.subcards2{
+    background-image: url(images//Coorg\,\ India_\ Looks\ ominously\ serene\ [OC][4032x3024].jpeg);
+
+}
+.subcards3{
+    background-image: url(images//jog_falls.jpg);
+
+}
+.subcards4{
+    background-image: url(images//murudeshwar_temple.jpg);
+
+}
+.subcards1{
+    background-image: url(images//ooty_train_gh.jpg);
+
+}
+.subcards5{
+    background-image: url(images//e5bf0ef240fc749e4749f56a8fb8717b\ \(1\).jpg);
+}
+.subcards6{
+    background-image: url(images//bce797def8e55620dc204a4bae842ef7.jpg);
+}
+.subcards7{
+    background-image: url(images//7608eaefb21bb780c94474eefbe942b1.jpg);
+}
+.subcards8{
+    background-image: url(images//558df0cc69aeb48763fceb0c83b9c5a4.jpg);
+}
+.subcards9{
+    background-image: url(images//8cb190a6df25d003a4c8e94ebd2ba8e7.jpg);
+}
+.subcards10{
+    background-image: url(images//Munnar\ es\ una\ ciudad\ y\ estación\ de\ montaña\ en\ el….jpeg);
+}
+.car:hover{
+    transform: translateY(-20px); 
+}
+.row .col .car  .subcards1, .subcards2, .subcards3, .subcards4 h3{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+.row{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.favspots{
+    margin-top: 10px;
+    border: 2px solid salmon;
+    border-radius: 40px;
+
+    
+}
+.profiles{
+   
+    background-image: url(images/5337906-silhouette-hike-people-dark-black-blue-hiking-walk-together-friends-sunrise-blue-hour-vignette-grass-night-germany-mittagberg-blaichach-boy-person-free-stock-photos.jpg);
+    height: 100%;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.offers{
+    width: 60%;
+    height:auto ;
+    flex-wrap: wrap;
+
+   
+    margin: auto;
+    margin-top: 100px;
+}
+.offers h1{
+    font-weight: 600;
+    text-align: center;
+    margin: 0%;
+
+}
+.offers p{font-weight: 100;
+    text-align: center;
+    margin: 0;
+  
+}
+.offers .cards{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.offers .cards .card{
+    position: relative;
+    width: 200px;
+    height: 350px;
+   
+
+}
+.offers .cards .card h5{
+    width: 140px;
+    padding: 6px 0px;
+    background: rgb(165, 243, 165);
+    border-radius: 20px;
+    font-size: 12px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+
+}
+.offers .cards .card .imgtxt{
+   position: relative;
+   width: 100%;
+   height: 250px;
+   margin-top: 5px; 
+}
+.offers .cards .card .imgtxt img{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    margin-top: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+.offers .cards .card .imgtxt h6{
+    position: absolute;
+    font-size: 9px;
+    padding: 10px 15px;
+    bottom: 0;
+    margin: 0;
+    color: #fff;
+z-index: 2;
+width: 85%;
+}
+.offers .cards .card .imgtxt h6::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: solid blueviolet;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+
+.offers .cards .card .imgtxt .contbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px #000;
+    padding:5px 0px ;
+    border-radius:0px 0px 5px 5px ;
+
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: rgb(249, 249, 255);
+    color: #000;
+    margin-top: 20px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px ;
+}
+footer h2 {
+    text-align: center;
+    margin: 0%;
+    margin-top: 25px;
+    line-height: 30px;
+    font-weight: 600;
+
+}
+footer p{
+    text-align: center;
+    width: 400px;
+    font-size: 13px;
+}
+footer .input{
+box-shadow: 0px 3px 20px -1px gray;
+border-radius: 20px;
+
+}
+footer .input input{
+   padding: 12px 15px;
+   border: none;
+   outline: none;
+   font-size: 12px;
+   border-radius: 20px;
+    }
+footer .input button {
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        border-radius: 20px;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s linear;
+     }  
+footer .input button:hover{
+    background:gray;
+
+}        
+footer ul{
+    list-style: none;
+    display:flex;
+   /* align-items: center;*/
+    margin-top:30px ;
+
+}     
+footer ul li{
+    text-align: center;
+    margin-right: 30px;
+    font-weight: bold;
+
+}
+footer ul li h6{
+    font-size: 11px;
+    font-weight: 600;
+    max-width: 120;
+    margin: 0;
+    line-height: 18px;
+    padding-top: 3px;
+
+}
